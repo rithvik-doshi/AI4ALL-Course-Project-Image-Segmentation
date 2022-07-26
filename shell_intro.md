@@ -84,7 +84,7 @@ BTW, dot files (files with a dot in front of the name) are hidden files, and usu
 	├-- File.jpg
 	├-- File2.jpg
 	├-- File3.txt
-	├-- <b>course_project/</b> *
+	├-- <b>course_project/ *</b>
 	|	├-- README.md
 	|	├-- project.py
 	|	└-- test_it.sh
