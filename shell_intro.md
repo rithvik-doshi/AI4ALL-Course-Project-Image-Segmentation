@@ -49,6 +49,7 @@ So as you may have seen before if you use the file explorer or Finder, our compu
 
 Now an example: imagine you have a folder called 'AI4ALL' with the following files and directories:
 
+```
 /home/
 └-- AI4ALL/
 	├-- File.jpg
@@ -59,6 +60,7 @@ Now an example: imagine you have a folder called 'AI4ALL' with the following fil
 	|	├-- project.py
 	|	└-- test_it.sh
 	└-- .gitignore
+```
 
 Out of these file names, you can recognize directories by the fact that they have no suffix (i.e. anything like .jpg, .py at the end). Additionally, they are followed by a forward slash, indicating that whatever follows is inside that directory. For example, if I were to write out the full path to File3.txt, it would be:
 
@@ -74,19 +76,20 @@ BTW, dot files (files with a dot in front of the name) are hidden files, and usu
 
 ### `pwd`
 
-pwd stands for 'print working directory', or, in other words, you're asking the computer where it's looking in right now. So suppose you're located here:
+`pwd` stands for 'print working directory', or, in other words, you're asking the computer where it's looking in right now. So suppose you're located here:
 
+<pre>
 /home/
 └-- AI4ALL/
 	├-- File.jpg
 	├-- File2.jpg
 	├-- File3.txt
-	├-- **course_project/** *
+	├-- <b>course_project/</b> *
 	|	├-- README.md
 	|	├-- project.py
 	|	└-- test_it.sh
 	└-- .gitignore
-
+</pre>
 
 Then, if you type `pwd`, you'll get something like this:
 
