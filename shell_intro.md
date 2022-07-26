@@ -166,4 +166,4 @@ Oftentimes, you might need to connect to a remote desktop or computer in order t
 
 Hopefully, you learned a little bit about the shell and how to navigate it. There's SO much more to it than what's written here, but the beauty of that is that there's so much to learn and so much you can do with it. Have fun!
 
-- Rithvik Doshi
+`Rithvik Doshi`
