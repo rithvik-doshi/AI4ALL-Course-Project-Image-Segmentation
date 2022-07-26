@@ -12,7 +12,7 @@ This will help you out so much as you learn how to use the terminal. Simply type
 
 `$ man cp`
 
-`
+```
 CP(1)                                General Commands Manual                               CP(1)
 
 NAME
@@ -38,8 +38,8 @@ DESCRIPTION
      -P    If the -R option is specified, no symbolic links are followed.  This is the default.
 
      -R    If source_file desig... (there's other stuff but I didn't copy paste it all)
-     
-`
+   
+```
 
 Basically, if you ever have any questions about how to use a command, use man to help figure it out.
 
