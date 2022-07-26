@@ -93,8 +93,10 @@ BTW, dot files (files with a dot in front of the name) are hidden files, and usu
 
 Then, if you type `pwd`, you'll get something like this:
 
-`$ pwd`
-`/home/AI4ALL/course_project/`
+```
+$ pwd
+/home/AI4ALL/course_project/
+```
 
 This is a good way to figure out where you are in the filesystem.
 
@@ -116,19 +118,24 @@ Another way to go back one folder is by changing your directory to this: `cd ../
 
 The ls command lists all the files in a directory. So say you're in the AI4ALL directory and want to know what's in it. You'd type:
 
-`$ ls`
-`File.jpg	File2.jpg	File3.txt	course_project/`
+```
+$ ls
+File.jpg	File2.jpg	File3.txt	course_project/
+```
 
 Sometimes, you can add options to a command, called flags, to slightly change what they do. This is not super important, but for example, if you wanted to show all files, including hidden ones, you would at the -a flag as such:
 
-`$ ls -a`
-`File.jpg	File2.jpg	File3.txt	course_project/	.gitignore`
+```
+$ ls -a
+File.jpg	File2.jpg	File3.txt	course_project/	.gitignore
+```
 
 You can also list a directory that you're not in. Say you're in /home/ and you want to know what's in course_project/. You would type the following:
 
-`ls /home/AI4ALL/course_project/`
-`README.md	project.py	test_it.sh`
-
+```
+ls /home/AI4ALL/course_project/
+README.md	project.py	test_it.sh
+```
 
 ### `cp` and `mv`
 
