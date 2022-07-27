@@ -102,7 +102,7 @@ This is a good way to figure out where you are in the filesystem.
 
 ### `cd`
 
-The cd command stands for 'change directories'. As you might guess, it's what you use to navigate through the filesystem. Suppose you are in /home/AI4ALL/ and you want to navigate into the course_project folder. You would type `cd` followed by the name of the directory you want to go to:
+The cd command stands for 'change directories'. As you might guess, it's what you use to navigate through the filesystem. Suppose you are in `/home/AI4ALL/` and you want to navigate into the course_project folder. You would type `cd` followed by the name of the directory you want to go to:
 
 `cd course_project/`
 
