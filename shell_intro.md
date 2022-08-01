@@ -38,7 +38,7 @@ DESCRIPTION
      -P    If the -R option is specified, no symbolic links are followed.  This is the default.
 
      -R    If source_file desig... (there's other stuff but I didn't copy paste it all)
-   
+
 ```
 
 Basically, if you ever have any questions about how to use a command, use man to help figure it out.
@@ -160,6 +160,12 @@ Now, how do we get code from a repository (another word for the source)? We use 
 Where you'd fill in the username and repo name depending on what you want to clone. If you go to the Github website, they help you out by giving you the link to copy and paste so that you don't have to type it all out.
 
 Once you make changes to your repository, you have to stage your changes for a commit, then commit them, then push them back to the source. We won't get into this using the command line since there's a lot of potential for errors here. Consider using the GitHub Desktop app to help streamline things, it provides a nice GUI and an explanation for any errors you may come across.
+
+### Other useful commands: Control-C and Control-D
+
+Control-C is a shortcut that broadcasts the interrupt signal. Essentially, what that means is that if there's a program running in your terminal, then by typing Control-C you will interrupt the program and stop it.
+
+Control-D is the end-of-file signal, or EOF. You can use this to exit the shell when you're done working. You can also use the `exit` command, that basically works the same way.
 
 ### Bonus commands!
 
