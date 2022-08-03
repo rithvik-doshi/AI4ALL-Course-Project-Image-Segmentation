@@ -60,6 +60,9 @@ CITYSCAPE_CLASS_LIST = ['road', 'sidewalk', 'building', 'wall', 'fence', 'pole',
                         'vegetation', 'terrain', 'sky', 'person', 'rider', 'car', 'truck', 'bus', 'train', 'motorcycle',
                         'bicycle', 'background']
 
+# This represents all the different classes in the dataset that we are using, and the colors that the model will use
+# for each class
+
 COLORS = [  # [  0,   0,   0],
         [128, 64, 128],
         [244, 35, 232],
@@ -163,7 +166,7 @@ def main(args):
     for i, imgName in tqdm(enumerate(image_list)):
 
         # get the path to groundtruth file
-        gtName = imgName.replace('leftImg8bit','gtFine').replace('.png','_labelTrainIds.png')
+        gtName = imgName.replace('leftImg8bit','gtFine').replace('_ds.png','_labelTrainIds_ds.png')
 
         # read image and groundtruth
         img = Image.open(imgName).convert('RGB')
@@ -246,7 +249,7 @@ def main(args):
            }
 #end
 
-def alt_start(s, im_size):
+def alt_start(s, im_size): # to be called from data.py, basically identical to regular start
 
     parser = ArgumentParser()
     # mdoel details
