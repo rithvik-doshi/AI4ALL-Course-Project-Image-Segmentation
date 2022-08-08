@@ -36,9 +36,9 @@ os.system("git clone https://github.com/rithvik-doshi/AI4ALL-Course-Project-Imag
 
 ### Filling in the blanks
 
-1. In test_segmentation.py, data.py and main.py in that order, fill in the code blanks with the requisite code.
-2. Make sure to test each part out to make sure it is working before moving on to the next file.
-3. Take notes about the key concepts that you learn
+1. Read test_segmentation.py, data.py and main.py in that order. Try to understand the flow of the code and how things are taking place in the files.
+2. Make sure to test each part out to make sure it is working before moving on to the next file, wherever applicable.
+3. Fill in the blanks in main.py and take notes about the key concepts that you learn
 
 ### Final Presentation
 
