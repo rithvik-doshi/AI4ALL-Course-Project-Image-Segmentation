@@ -15,10 +15,10 @@ This repository contains a light version of sacmehta's EdgeNets and a few exerci
 ### Starting off
 
 1. To start with, go through this project and look at a couple of files. Try to see how they are related to each other. We will go over this together just to make sure everyone understands.
-
-~~2. Make a copy of the template Google Colab project, and clone this repostiory into the project using: `git clone https://github.com/rithvik-doshi/AI4ALL-Course-Project-Image-Segmentation` in the terminal (you will have to use the following code in your Jupyter Notebook:)~~
+2. Clone this repository from Github using the following command: `git clone https://github.com/rithvik-doshi/AI4ALL-Course-Project-Image-Segmentation`
 
 ```python
+# using python:
 import os
 os.system("git clone https://github.com/rithvik-doshi/AI4ALL-Course-Project-Image-Segmentation.git")
 ```
