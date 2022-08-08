@@ -15,7 +15,7 @@ This repository contains a light version of sacmehta's EdgeNets and a few exerci
 ### Starting off
 
 1. To start with, go through this project and look at a couple of files. Try to see how they are related to each other. We will go over this together just to make sure everyone understands.
-2. Clone this repository from Github using the following command: `git clone https://github.com/rithvik-doshi/AI4ALL-Course-Project-Image-Segmentation`
+2. Clone this repository from Github using the following command: `git clone https://github.com/rithvik-doshi/AI4ALL-Course-Project-Image-Segmentation` (if git is not installed on your machine, download a zip file of the project to your machine'
 
 ```python
 # using python:
