@@ -215,7 +215,7 @@ def main(args):
         img_out = img_out.resize((w, h), Image.NEAREST)
 
         # evaluate IoU
-        miou_class.update(numpy.array(gt), numpy.array(img_out))
+        # miou_class.update(numpy.array(gt), numpy.array(img_out))
         
         # save the segmentation mask
         if True:
@@ -244,7 +244,7 @@ def main(args):
             "im_size": f"{args.im_size[0]}x{args.im_size[1]}",
             "flops": flops,
             "num_params": num_params,
-            "miou": outscore,
+            # "miou": outscore,
             "speed": numpy.mean(new_run_time)
            }
 #end
