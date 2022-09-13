@@ -45,9 +45,8 @@ os.system("git clone https://github.com/rithvik-doshi/AI4ALL-Course-Project-Imag
 1. Create a presentation with your group covering the following topics:
 
 - Briefly and broadly describe the machine learning model at work
-- What task is the ML model undertaking doing?
+- What task is the ML model undertaking?
 - How does the project test the model?
 - How was the data about the model collected?
-- How do we know whether the project works?
 - How did you go about creating the visualization of the data?
 - What were some other things you learned about working on a ML project?
